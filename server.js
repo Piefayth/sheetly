@@ -26,4 +26,17 @@ var input =
 var options = {};
 
 var sheetly = new Sheetly(input, options);
+sheetly.add('body', {'left': '100px'});
+console.log(sheetly.sheetly);
+console.log(sheetly.sheetstring);
+
+
+sheetly.add('div a', {'left': '100px'});
+sheetly.add('div a', {'left': '100px'});
+sheetly.add('div a', {'left': '100px'});
+sheetly.add('div a', {'left': '100px'});
+sheetly.add('div a', {'left': '100px'});
+sheetly.add('div a', {'left': '100px'});
+sheetly.add('div a', {'left': '100px'});
+console.log(sheetly.sheetly);
 console.log(sheetly.sheetstring);
